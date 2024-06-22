@@ -9,13 +9,8 @@ export default [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
-  
-];
-
-module.exports = [
-  // ...
   {
-    name: 'strapi::security',
+    
     config: {
       contentSecurityPolicy: {
         useDefaults: true,
@@ -28,5 +23,6 @@ module.exports = [
       },
     },
   },
-  // ...
+  
 ];
+
